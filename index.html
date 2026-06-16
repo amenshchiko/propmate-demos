@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PropMate · Demos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Epilogue:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#0D1B2A;min-height:100vh;display:flex;flex-direction:column;
+         align-items:center;justify-content:center;padding:40px 20px;
+         font-family:'Epilogue',sans-serif}
+    .logo{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;
+          color:#fff;letter-spacing:0.04em;text-transform:uppercase;margin-bottom:8px}
+    .logo span{color:#1A5C53}
+    .sub{font-size:13px;color:rgba(255,255,255,0.35);margin-bottom:48px;
+         font-family:'Barlow Condensed',sans-serif;letter-spacing:0.06em;text-transform:uppercase}
+    .cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;max-width:640px}
+    .card{background:#1A2E42;border:1px solid rgba(255,255,255,0.08);
+          border-left:3px solid #1A5C53;border-radius:2px;padding:24px 28px;
+          text-decoration:none;flex:1;min-width:240px;max-width:300px;
+          transition:background 0.15s}
+    .card:hover{background:#1F3550}
+    .card-label{font-family:'Barlow Condensed',sans-serif;font-weight:600;
+                font-size:10px;text-transform:uppercase;letter-spacing:0.1em;
+                color:#1A5C53;margin-bottom:8px}
+    .card-title{font-size:16px;font-weight:500;color:#fff;margin-bottom:6px;line-height:1.3}
+    .card-desc{font-size:12px;color:rgba(255,255,255,0.4);line-height:1.5}
+    .arrow{color:#1A5C53;margin-top:16px;font-size:18px;display:block}
+    .footer{margin-top:48px;font-size:11px;color:rgba(255,255,255,0.2);
+            font-family:'Barlow Condensed',sans-serif;letter-spacing:0.05em}
+  </style>
+</head>
+<body>
+  <div class="logo">PROP<span>MATE</span></div>
+  <div class="sub">Demos · Acceso restringido</div>
+  <div class="cards">
+    <a class="card" href="aica_demo.html">
+      <div class="card-label">Inversión · Salamanca</div>
+      <div class="card-title">Simulador de Inversión</div>
+      <div class="card-desc">Valoración, reforma/flip, compra-venta y rentabilidad anclados a datos reales del Notariado.</div>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card" href="madrideasy_demo.html">
+      <div class="card-label">Habitaciones · Madrid</div>
+      <div class="card-title">Herramienta de Posicionamiento</div>
+      <div class="card-desc">Comparables de mercado y calculadora de ingresos para gestores de habitaciones.</div>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+  <div class="footer">propmate.es · andreim@propmate.es</div>
+</body>
+</html>
